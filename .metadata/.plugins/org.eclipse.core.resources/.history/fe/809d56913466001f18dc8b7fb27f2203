@@ -1,0 +1,20 @@
+package com.around.advice.aspect;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LoggingAspect {
+	
+	@Around(value = "execution(com.around.advice.*.*(..))")
+	public Object log(ProceedingJoinPoint proceedingJoinPoint) {
+		Object[] args = proceedingJoinPoint.getArgs();
+		Object ret;
+		
+		return ret;
+	}
+	
+}

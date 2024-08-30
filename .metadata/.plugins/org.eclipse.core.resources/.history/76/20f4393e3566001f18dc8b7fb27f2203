@@ -1,0 +1,5 @@
+package com.around.advice.test;
+
+public class TestAroundAdvice {
+
+}

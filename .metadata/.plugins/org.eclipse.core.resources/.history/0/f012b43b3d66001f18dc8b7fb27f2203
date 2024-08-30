@@ -1,0 +1,13 @@
+package com.thro.advice.aspect;
+
+import org.aspectj.lang.JoinPoint;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ExceptionLoggerAdvice {
+	
+	public void log(JoinPoint joinPoint , IllegalArgumentException argumentException) {
+		
+	}
+	
+}

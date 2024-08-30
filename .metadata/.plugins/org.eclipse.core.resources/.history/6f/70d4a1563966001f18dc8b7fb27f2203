@@ -1,0 +1,8 @@
+package com.before.advice.beans;
+
+public class LoanManager {
+	
+	public boolean approveLoan() {
+		System.out.println("inside approve loan");
+	}
+}

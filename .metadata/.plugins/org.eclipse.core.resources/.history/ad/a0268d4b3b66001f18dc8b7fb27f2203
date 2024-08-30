@@ -1,0 +1,17 @@
+package com.after.returning.aspect;
+
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class CheckKeyAspect {
+	
+	@AfterReturning(value = "within(com.after.returning.*)" , returning = )
+	public void validate() {
+		
+		
+	}
+
+}

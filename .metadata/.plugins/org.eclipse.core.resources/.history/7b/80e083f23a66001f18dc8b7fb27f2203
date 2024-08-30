@@ -1,0 +1,10 @@
+package com.after.returning.aspect;
+
+public class CheckKeyAspect {
+	
+	
+	public void validate() {
+		
+	}
+
+}

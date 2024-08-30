@@ -1,0 +1,5 @@
+package com.thro.advice;
+
+public class ThrowAdvice {
+
+}

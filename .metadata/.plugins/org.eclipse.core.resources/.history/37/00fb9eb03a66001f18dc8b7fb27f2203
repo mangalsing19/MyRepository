@@ -1,0 +1,10 @@
+package com.after.returning.aspect;
+
+public class KeyGenerator {
+	
+	public int keyGenerator(int key) {
+		if(key < 8) {
+			
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package com.thro.advice.bean;
+
+public class Thrower {
+
+}

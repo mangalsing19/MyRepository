@@ -1,0 +1,15 @@
+package com.thro.advice.aspect;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ExceptionLoggerAdvice {
+	@AfterThrowing
+	public void log(JoinPoint joinPoint , IllegalArgumentException argumentException) {
+		String methodName = joinPoint.getSignature().getName();
+		System.out.println("Exception raise in "+methodName);
+	}
+	
+}

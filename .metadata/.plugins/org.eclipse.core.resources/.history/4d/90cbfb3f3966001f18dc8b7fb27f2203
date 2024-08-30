@@ -1,0 +1,5 @@
+package com.before.advice.beans;
+
+public class LoanManager {
+
+}

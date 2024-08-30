@@ -1,0 +1,13 @@
+package com.after.returning;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class AfterReturningAdviceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

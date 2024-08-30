@@ -1,0 +1,6 @@
+package com.thro.advice.aspect;
+
+
+public class ExceptionLoggerAdvice {
+
+}
