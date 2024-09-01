@@ -1,8 +1,0 @@
-package com.before.advice.aspect;
-
-import org.aspectj.lang.annotation.Aspect;
-
-@Aspect
-public class loggingAspect {
-
-}

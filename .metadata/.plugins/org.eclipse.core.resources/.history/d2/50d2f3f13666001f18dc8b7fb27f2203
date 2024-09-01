@@ -1,7 +1,0 @@
-ckage com.around.advice.test;
-
-public class TestAroundAdvice {
-	public static void main(String[] args) {
-		
-	}
-}

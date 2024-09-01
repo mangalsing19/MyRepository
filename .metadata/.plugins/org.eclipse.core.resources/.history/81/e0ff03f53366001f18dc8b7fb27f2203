@@ -1,9 +1,0 @@
-package com.around.advice.aspect;
-
-import org.springframework.stereotype.Component;
-
-@Component
-public class LoggingAspect {
-	
-	
-}

@@ -1,6 +1,0 @@
-package com.around.advice.aspect;
-
-
-public class LoggingAspect {
-
-}
